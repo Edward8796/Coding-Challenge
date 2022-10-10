@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.square{
+  padding: 100px;
+  background-color:rgba(0,0,0,0.5);
+  border-radius: 20px;
+  margin: 50px 300px;
+}
+
+header{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  color: lime;
+}
+
+#logo{
+  height: 110px;
+  width: 220px;
+}
+
+nav{
+  background-color: lime;
+  padding: 20px;
+  text-align: center;
+}
+
+main{
+  color: white;
+}
+
+main span{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.person > p{
+  font-size: 20px;
+}
+
+.person{
+  margin: 20px 0px;
+}
+
+.charge{
+  border-radius: 10px;
+  height: 30px;
+}
+
+.charge.medium{
+  background-color: orange;
+  width: 40%;
+}
+
+.charge.full{
+  background-color: lime;
+  width: 70%;
+}
+
+.charge.low{
+  background-color: darkred;
+  width: 15%;
+}
